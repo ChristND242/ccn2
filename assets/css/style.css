@@ -151,6 +151,20 @@ html, body {
     object-fit: cover;
 }
 
+.col-md-6.text-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-6.text-right .img-res {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    object-fit: contain; /* or 'cover' depending on your needs */
+}
+
+
 .visible-xxs {
     display: none;
 }
@@ -616,3 +630,6 @@ a.icon-up-bg:hover {color: #212121;}
     color: #fff;
     text-align: center;
 }
+
+/* Team members */
+
